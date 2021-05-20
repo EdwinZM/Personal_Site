@@ -1,11 +1,11 @@
-.body {
+body {
     margin: 5%;
-    background-color: rgb(224, 228, 233);
-    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(315deg,rgb(94, 247, 255), rgb(0, 100, 255));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif;
 }
 
 @media (min-width: 500px) {
-    .body {
+    body {
         margin: 5% 20%;
     }
 }
@@ -19,7 +19,24 @@ hr {
 }
 
 h1, h2 {
-    color: #66BFBF;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: lightgrey;
 }
 
 .head {
@@ -29,5 +46,5 @@ h1, h2 {
 }
 
 #handsome_edwin {
-    border-radius: 100%;
+    border-radius: 20%;
 }
