@@ -1,6 +1,13 @@
 .body {
+    margin: 5%;
     background-color: rgb(224, 228, 233);
     font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 500px) {
+    .body {
+        margin: 20%;
+    }
 }
 
 hr {
@@ -13,4 +20,14 @@ hr {
 
 h1, h2 {
     color: #66BFBF;
+}
+
+.head {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#handsome_edwin {
+    border-radius: 100%;
 }
