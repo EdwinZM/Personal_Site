@@ -78,7 +78,8 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">17</div>
+              <div class="col-sm-8"><span id="age">17</span></div>
+             
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -496,6 +497,21 @@
   </div>
 </div></div>
     </div>
+    <script>
+      const dateObj = new Date();
+      const month = dateObj.getUTCMonth() + 1;
+      console.log(month);
+      const day = dateObj.getUTCDate;
+      console.log(day);
+      if (month >= 8) {
+        const year = dateObj.getUTCFullYear();
+        console.log(year)
+        cur_age = year - 2003;
+        console.log(cur_age)
+        document.getElementById("age").innerHTML = cur_age;
+      }
+
+    </script>
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
     <script src="js/core/popper.min.js?ver=1.1.0"></script>
     <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
